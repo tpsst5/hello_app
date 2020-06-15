@@ -6,7 +6,7 @@ This app takes in the user's IP address, latitude and longitude from the dummy f
 ## See also:
 [IP Geolocation API](https://ip-api.com/), 
 [Mapbox GL JS API](https://docs.mapbox.com/mapbox-gl-js/api/), 
-[HelloSalut](https://fourtonfish.com/hellosalut/hello/), 
+[HelloSalut](https://fourtonfish.com/hellosalut/hello/)
 
 ## Setup:
-The live version can be seen [here](https://tpsst5.github.io/hello_app/)
+The live version can be seen [here](https://tpsst5.github.io/hello_app/).
