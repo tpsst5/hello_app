@@ -83,7 +83,7 @@ document.getElementById('submit-btn').addEventListener('click',
       return errorMessage();
     }
     // API JSON endpoint to get users IP Address and latitude/longitude
-    const endpoint = 'http://ip-api.com/json/?fields=status,message,query,lat,lon';
+    const endpoint = 'https://ip-api.com/json/?fields=status,message,query,lat,lon';
     // Fetch JSON data
     fetch(endpoint)
       .then(response => {
