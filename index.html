@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="style.css">
+  <title>Hello!</title>
+</head>
+
+<body>
+
+  <div class="container" id="map-container">
+    <h1><span id="hello">Welcome... </span><span id="display-user"></span></h1>
+    <div id="map"></div>
+  </div>
+
+  <div class="container" id="form-container">
+    <form id="login-form">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="user" class="u-full-width" placeholder="Enter username">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" class="u-full-width" placeholder="Enter password">
+      </div>
+      <div>
+        <input type="button" id="submit-btn" class="button-primary u-full-width" value="Login">
+      </div>
+      <div>
+        <input type="button" id="logout" class="u-full-width" value="Logout">
+      </div>
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
