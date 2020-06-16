@@ -9,4 +9,4 @@ This app takes in the user's IP address, latitude and longitude from the dummy f
 [HelloSalut](https://fourtonfish.com/hellosalut/hello/)
 
 ## Setup:
-The live version can be seen [here](http://tpsst5.github.io/hello_app/).
+The live version can be seen [here](https://tpsst5.github.io/hello_app/).
