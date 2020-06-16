@@ -10,3 +10,6 @@ This app takes in the user's IP address, latitude and longitude from the dummy f
 
 ## Setup:
 The live version can be seen [here](https://tpsst5.github.io/hello_app/).
+
+## Status:
+ip-api doesn't offer SSL in their free package so the geolocation only works on my local machine.
